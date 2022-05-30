@@ -67,17 +67,17 @@
             position: absolute;
             left: 20px;
             font-size: 30px;
+            transition: 0.5s;
+        }
+        .container .inputBox input:focus ~ .span2{
+            transform: translateY(-50px);
         }
         .container .inputBox .span2 a{
             color: rgba(128, 128, 128, 0.801);
-            transition: 0.8s;
+            transition: 0.5s;
         }
         .container .inputBox input:focus ~ .span2 a{
             color: rgb(88, 88, 88);
-            
-        }
-        .container .inputBox input:focus ~ .span2{
-            opacity: 0;
         }
         .container .inputBox .span3{
             position: absolute;
@@ -96,7 +96,7 @@
             
         }
         .container .inputBox input:focus ~ .span3 a{
-            color: rgb(88, 88, 88);
+            color: orangered;
         }
     </style>
 </head>
@@ -106,8 +106,8 @@
             <div class="inputBox">
                 <input type="text" name="" id="">
                 <span class="span1"><a href="#">Submit</a></span>
-                <span class="span2"><a href="#"><i class="fa-solid fa-user-tie"></i></a></span>
-                <span class="span3"><a href="#"><i class="fa-solid fa-user-tie"></i></a></span>
+                <span class="span2"><a href="#"><i class="fa-solid fa-plane-up"></i></a></span>
+                <span class="span3"><a href="#"><i class="fa-solid fa-plane-up"></i></a></span>
             </div>
         </form>
     </div>
