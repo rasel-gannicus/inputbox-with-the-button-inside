@@ -89,6 +89,19 @@ body{
 .container .inputBox input:focus ~ .span3 a{
     color: orangered;
 }
-@media only screen and (max-width: 768px) {
-    
+@media only screen and (max-width: 400px) {
+    .container{
+        width: 400px;
+    }
+    .container .inputBox{
+        width: 350px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .container{
+        width: 600px;
+    }
+    .container .inputBox{
+        width: 350px;
+    }
 }
